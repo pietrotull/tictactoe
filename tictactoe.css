@@ -1,0 +1,47 @@
+/* 
+    Document   : uclquiz
+    Created on : 28.3.2011, 22:46:50
+    Author     : pietarike
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-color: #8643D6;
+    font-family: arial;
+}
+div.main {
+    background-color: #7446D7;
+    width: 200px;
+    height: 350px;
+    vertical-align: center;
+    margin: auto;
+    padding: 0px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+table.toplist {
+    font-size: 12px;
+}
+
+ol.topScorersList {
+    font-size: 12px;
+}
+
+canvas {
+    margin: auto;
+    
+}
